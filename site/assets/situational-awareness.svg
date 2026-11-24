@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" role="img" aria-label="Head-up situational awareness display showing a conformal traffic bracket with relative altitude and climb trend, terrain ridge and obstacle alert, headset audio callout, and time-stamped weather status">
+  <rect width="640" height="300" fill="#0d1318" />
+
+  <!-- Subtle range and azimuth grid -->
+  <g stroke="#1c2731" stroke-width="1">
+    <line x1="0" y1="75" x2="640" y2="75" />
+    <line x1="0" y1="150" x2="640" y2="150" />
+    <line x1="0" y1="225" x2="640" y2="225" />
+    <line x1="160" y1="0" x2="160" y2="252" />
+    <line x1="320" y1="0" x2="320" y2="252" />
+    <line x1="480" y1="0" x2="480" y2="252" />
+  </g>
+
+  <!-- Horizon reference line -->
+  <line x1="28" y1="164" x2="612" y2="164" stroke="#38d977" stroke-width="1.25" stroke-opacity="0.32" stroke-dasharray="8 8" />
+
+  <!-- Terrain ridge contour with look-ahead caution highlight -->
+  <path
+    d="M0 252 L0 202 L58 186 L112 194 L168 158 L216 178 L272 192 L344 198 L420 184 L486 196 L556 188 L640 198 L640 252 Z"
+    fill="#162029"
+    stroke="#2b3a47"
+    stroke-width="1.5"
+  />
+  <path
+    d="M118 193 L168 158 L214 177"
+    fill="none"
+    stroke="#e8a849"
+    stroke-width="2.5"
+  />
+
+  <!-- Charted obstacle marker on ridge -->
+  <polygon points="168,136 161,152 175,152" fill="none" stroke="#e8a849" stroke-width="2" />
+  <circle cx="168" cy="147" r="1.8" fill="#e8a849" />
+  <text x="168" y="124" text-anchor="middle" fill="#e8a849" font-family="B612, ui-sans-serif, sans-serif" font-size="11" font-weight="700" letter-spacing="0.6">TERRAIN  +320 FT</text>
+
+  <!-- Distant airport conformal marker (upper left) -->
+  <g stroke="#38d977" stroke-width="2" fill="none">
+    <path d="M56 54 L48 54 L48 80 L56 80" />
+    <path d="M84 54 L92 54 L92 80 L84 80" />
+    <line x1="60" y1="67" x2="80" y2="67" stroke-opacity="0.85" />
+  </g>
+  <text x="102" y="64" fill="#38d977" font-family="B612, ui-sans-serif, sans-serif" font-size="11" font-weight="700" letter-spacing="0.6">AIRPORT  6.4 NM</text>
+  <text x="102" y="79" fill="#c2bcb0" font-family="B612, ui-sans-serif, sans-serif" font-size="11">RWY 27  ELEV 980</text>
+
+  <!-- Conformal traffic bracket with relative altitude and climb trend (upper right) -->
+  <g stroke="#6caed6" stroke-width="2.25" fill="none">
+    <path d="M402 68 L392 68 L392 78" />
+    <path d="M430 68 L440 68 L440 78" />
+    <path d="M402 116 L392 116 L392 106" />
+    <path d="M430 116 L440 116 L440 106" />
+  </g>
+  <polygon points="416,83 425,92 416,101 407,92" fill="#0d1318" stroke="#6caed6" stroke-width="2.25" />
+  <!-- Climb trend arrow -->
+  <line x1="454" y1="100" x2="454" y2="82" stroke="#6caed6" stroke-width="2" />
+  <polygon points="454,77 449,85 459,85" fill="#6caed6" />
+
+  <text x="468" y="88" fill="#f1ece2" font-family="B612, ui-sans-serif, sans-serif" font-size="13" font-weight="700">TFC  +400</text>
+  <text x="468" y="106" fill="#6caed6" font-family="B612, ui-sans-serif, sans-serif" font-size="11" font-weight="700" letter-spacing="0.5">2 O'CLOCK  2.1 NM</text>
+
+  <!-- Flight path vector (center reference) -->
+  <circle cx="320" cy="164" r="7" fill="#0d1318" stroke="#38d977" stroke-width="2.25" />
+  <line x1="305" y1="164" x2="313" y2="164" stroke="#38d977" stroke-width="2.25" />
+  <line x1="327" y1="164" x2="335" y2="164" stroke="#38d977" stroke-width="2.25" />
+  <line x1="320" y1="150" x2="320" y2="157" stroke="#38d977" stroke-width="2.25" />
+
+  <!-- Headset audio callout badge -->
+  <rect x="28" y="210" width="376" height="28" rx="14" fill="#162029" stroke="#2d4252" stroke-width="1.25" />
+  <circle cx="46" cy="224" r="4" fill="#6caed6" />
+  <text x="58" y="228" fill="#f1ece2" font-family="B612, ui-sans-serif, sans-serif" font-size="11" font-weight="700" letter-spacing="0.4">CALLOUT: TRAFFIC 2 O'CLOCK, 2 MILES, +400</text>
+
+  <!-- Time-stamped weather footer bar -->
+  <rect x="0" y="252" width="640" height="48" fill="#121a21" />
+  <line x1="0" y1="252" x2="640" y2="252" stroke="#24313d" stroke-width="1" />
+  <text x="24" y="280" fill="#c2bcb0" font-family="B612, ui-sans-serif, sans-serif" font-size="11" font-weight="700" letter-spacing="0.6">RADAR: LIGHT PRECIP 14 NM NW</text>
+  <rect x="446" y="263" width="170" height="26" rx="13" fill="#1b2630" stroke="#2d4252" />
+  <text x="531" y="280" text-anchor="middle" fill="#6caed6" font-family="B612, ui-sans-serif, sans-serif" font-size="11" font-weight="700" letter-spacing="0.6">METAR 1853Z  8 MIN</text>
+</svg>
