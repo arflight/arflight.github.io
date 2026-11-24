@@ -1,0 +1,11 @@
+# Line Up
+
+> Your path, in sight. A head-up display and cockpit companion for general aviation pilots.
+
+Line Up projects highway-in-the-sky approach paths, visual traffic pattern cues, traffic and terrain alerts, time-stamped weather briefings, and phase-aware checklists. It is portable, works offline from engine start, keeps the instrument panel unobstructed, and clears the display with one button press. Supplemental situational awareness only; certified instruments remain primary on every flight.
+
+## Links
+
+- [Line Up home](https://flylineup.com/)
+- [Features](https://flylineup.com/features.html)
+- [Safety principles](https://flylineup.com/safety.html)

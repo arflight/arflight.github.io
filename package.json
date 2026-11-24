@@ -1,0 +1,17 @@
+{
+  "name": "lineup-site",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "The Line Up product site at flylineup.com: static, script-free.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "node scripts/build-pages.mjs",
+    "check:pages": "node scripts/build-pages.mjs --check",
+    "check:site": "node scripts/check-site.mjs",
+    "check": "npm run check:pages && npm run check:site",
+    "serve": "node scripts/serve.mjs"
+  }
+}

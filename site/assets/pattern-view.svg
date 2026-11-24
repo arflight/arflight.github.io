@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 340" width="840" height="340" role="img" aria-label="Visual traffic pattern diagram showing 45-degree entry, downwind, base, and final legs aligned with Runway 27">
+  <rect width="840" height="340" fill="#0d1318" />
+
+  <!-- Subtle range grid -->
+  <g stroke="#1c2731" stroke-width="1">
+    <line x1="0" y1="85" x2="840" y2="85" />
+    <line x1="0" y1="170" x2="840" y2="170" />
+    <line x1="0" y1="255" x2="840" y2="255" />
+    <line x1="210" y1="0" x2="210" y2="340" />
+    <line x1="420" y1="0" x2="420" y2="340" />
+    <line x1="630" y1="0" x2="630" y2="340" />
+  </g>
+
+  <!-- 45-degree entry path -->
+  <path d="M590 36 L490 96" fill="none" stroke="#6caed6" stroke-width="2.5" stroke-dasharray="7 6" />
+  <polygon points="486,98 499,97 492,86" fill="#6caed6" />
+  <text x="602" y="42" fill="#6caed6" font-family="B612, ui-sans-serif, sans-serif" font-size="12" font-weight="700">45 DEG ENTRY</text>
+
+  <!-- Pattern racetrack (left traffic for RWY 27) -->
+  <path
+    d="M250 96 L640 96 Q700 96 700 156 L700 184 Q700 244 640 244 L230 244 Q170 244 170 184 L170 156 Q170 96 230 96 Z"
+    fill="none"
+    stroke="#38d977"
+    stroke-width="2.75"
+    stroke-opacity="0.88"
+  />
+
+  <!-- Runway 27 bar -->
+  <rect x="270" y="232" width="240" height="24" rx="2" fill="#232c35" stroke="#f1ece2" stroke-width="1.5" />
+  <line x1="286" y1="244" x2="494" y2="244" stroke="#f1ece2" stroke-width="1.5" stroke-dasharray="10 10" stroke-opacity="0.7" />
+  <text x="390" y="282" text-anchor="middle" fill="#f1ece2" font-family="B612, ui-sans-serif, sans-serif" font-size="14" font-weight="700">RWY 27</text>
+
+  <!-- Leg labels -->
+  <g fill="#c2bcb0" font-family="B612, ui-sans-serif, sans-serif" font-size="12" font-weight="700" letter-spacing="0.8">
+    <text x="390" y="80" text-anchor="middle">DOWNWIND  1,000 FT AGL</text>
+    <text x="720" y="174">BASE</text>
+    <text x="590" y="274" text-anchor="middle" fill="#38d977">FINAL  3.0 DEG</text>
+    <text x="150" y="174" text-anchor="end">UPWIND</text>
+  </g>
+
+  <!-- Aircraft marker on downwind -->
+  <circle cx="420" cy="96" r="7" fill="#0d1318" stroke="#38d977" stroke-width="2.5" />
+  <line x1="406" y1="96" x2="413" y2="96" stroke="#38d977" stroke-width="2.5" />
+  <line x1="427" y1="96" x2="434" y2="96" stroke="#38d977" stroke-width="2.5" />
+</svg>

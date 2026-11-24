@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" width="640" height="420" role="img" aria-label="Line Up companion app readback card confirming Runway 27 approach selection with weather age and equal Cancel and Confirm actions">
+  <rect width="640" height="420" fill="#ede7db" />
+  <rect x="36" y="24" width="568" height="372" rx="18" fill="#fdfbf7" stroke="#dcd4c5" stroke-width="2" />
+
+  <!-- Flight strip header -->
+  <rect x="36" y="24" width="568" height="52" rx="18" fill="#181a1c" />
+  <rect x="36" y="56" width="568" height="20" fill="#181a1c" />
+  <text x="60" y="56" fill="#f1ece2" font-family="B612, ui-sans-serif, sans-serif" font-size="14" font-weight="700">C172S  PREFLIGHT BRIEFING</text>
+  <text x="580" y="56" text-anchor="end" fill="#6caed6" font-family="B612, ui-sans-serif, sans-serif" font-size="13" font-weight="700">READY</text>
+
+  <!-- Readback header -->
+  <text x="60" y="112" fill="#7a5333" font-family="B612, ui-sans-serif, sans-serif" font-size="12" font-weight="700" letter-spacing="1.4">READBACK BEFORE DISPLAY</text>
+  <text x="60" y="144" fill="#181a1c" font-family="B612, ui-sans-serif, sans-serif" font-size="22" font-weight="700">RWY 27  Visual Approach  3.0 deg</text>
+
+  <!-- Provenance tags -->
+  <g font-family="B612, ui-sans-serif, sans-serif" font-size="12">
+    <rect x="60" y="162" width="150" height="26" rx="13" fill="#ede7db" stroke="#dcd4c5" />
+    <text x="135" y="179" text-anchor="middle" fill="#4b5056" font-weight="700">PUBLISHED 3.0 DEG</text>
+
+    <rect x="222" y="162" width="144" height="26" rx="13" fill="#ede7db" stroke="#dcd4c5" />
+    <text x="294" y="179" text-anchor="middle" fill="#4b5056" font-weight="700">WIND 250 AT 7 KT</text>
+
+    <rect x="378" y="162" width="166" height="26" rx="13" fill="#ede7db" stroke="#dcd4c5" />
+    <text x="461" y="179" text-anchor="middle" fill="#4b5056" font-weight="700">METAR 1853Z  8 MIN</text>
+  </g>
+
+  <!-- Clear summary box -->
+  <rect x="60" y="208" width="520" height="72" rx="10" fill="#f7f4ec" stroke="#dcd4c5" stroke-width="1.5" />
+  <text x="78" y="234" fill="#225578" font-family="B612, ui-sans-serif, sans-serif" font-size="12" font-weight="700" letter-spacing="1">APPROACH BRIEF</text>
+  <text x="78" y="260" fill="#4b5056" font-family="B612, ui-sans-serif, sans-serif" font-size="14">Left traffic pattern at 1,000 ft AGL. Runway length 6,000 ft. Offline data current.</text>
+
+  <!-- Equal-size Cancel and Confirm buttons -->
+  <rect x="60" y="308" width="250" height="56" rx="28" fill="#fdfbf7" stroke="#dcd4c5" stroke-width="2" />
+  <text x="185" y="342" text-anchor="middle" fill="#181a1c" font-family="B612, ui-sans-serif, sans-serif" font-size="16" font-weight="700">Cancel</text>
+
+  <rect x="330" y="308" width="250" height="56" rx="28" fill="#225578" />
+  <text x="455" y="342" text-anchor="middle" fill="#fdfbf7" font-family="B612, ui-sans-serif, sans-serif" font-size="16" font-weight="700">Confirm to HUD</text>
+</svg>
