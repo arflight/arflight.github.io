@@ -111,7 +111,7 @@ ${cards}
             </ol>
           </nav>
           <p class="eyebrow">Capabilities</p>
-          <h1>Built for every phase of flight.</h1>
+          <h1>From gear up to gear down.</h1>
           <p class="lead lead--wide">
             From preflight briefing and taxi to the traffic pattern and final approach, Line Up
             puts the flight picture ahead of you so your eyes stay outside.
